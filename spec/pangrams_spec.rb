@@ -1,9 +1,9 @@
 require '../lib/pangrams'
 
 RSpec.describe "#is_pangram?" do
-
+ 
   it 'devuelve true si la frase es un pangrama' do
-    expect(is_pangram?("The quick brown fox jumps over the lazy dog")).to be true
+    expect(is_pangram?("The quick brown fox jumps over the lazy dog")).to eql true
   end
 
   it 'devuelve true si la frase es un pangrama' do
